@@ -1,10 +1,11 @@
 {
   "name": "software-testing",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,10 @@
   },
   "homepage": "https://github.com/hennatee/Software-testing#readme",
   "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
     "coveralls": "^3.1.1",
-    "mocha-lcov-reporter": "^1.3.0"
+    "mocha-lcov-reporter": "^1.3.0",
+    "mochawesome": "^7.0.0"
   }
 }
