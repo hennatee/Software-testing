@@ -1,0 +1,4 @@
+{
+    "include": ["COMP.SE.200-2021-2022-1/src/*.js"],
+    "reporter": ["text", "lcov", "json"]
+}
