@@ -9,4 +9,6 @@ Due to time constraints, testing will be conducted on a limited part of the libr
 
 ### Test environment and workflow 
 
+![image](https://github.com/hennatee/Software-testing/blob/main/test-environment.png?raw=true)
+
 
