@@ -1,6 +1,6 @@
 # Software testing
 
-[![Coverage Status](https://coveralls.io/repos/github/hennatee/Software-testing/badge.svg?branch=main)](https://coveralls.io/github/hennatee/Software-testing?branch=main) [![Build Status](https://app.travis-ci.com/hennatee/Software-testing.svg?branch=main)]
+[![Coverage Status](https://coveralls.io/repos/github/hennatee/Software-testing/badge.svg?branch=main)](https://coveralls.io/github/hennatee/Software-testing?branch=main) ![Build Status](https://app.travis-ci.com/hennatee/Software-testing.svg?branch=main)
 
 Testing an open-source JavaScript utility library. The library is to be used in developing the front-end of an E-commerce food product store. Testing is done to gather information on how well the library works - if it does what it claims to do – and whether the library contains any noticeable defects.
 
