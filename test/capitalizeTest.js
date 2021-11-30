@@ -18,24 +18,18 @@ describe('#capitalize()', function() {
     expect(capitalize("#¤%&")).to.equal("#¤%&");
   });
 
-  //TEST FAILS for a null value, returns string "Null"
-  /*
+  //for a null value, returns sting "Null"
   it('should throw an error for a null parameter', function() {
     expect(capitalize(null)).to.throw();
   });
-  */
 
-  //TEST FAILS returns the date object as a capitalized string representation
-  /*
+  //returns the date object as a capitalized string representation
   it('should throw an error for an object', function() {
     expect(capitalize(new Date())).to.throw(TypeError);
   });
-  */
   
-  //TEST FAILS returns 'T,e,s,t'
-  /*
+  //returns 'T,e,s,t'
   it('should throw an error for an array', function() {
     expect(capitalize(['t', 'e', 's', 't'])).to.throw(TypeError);
   });
-  */
 });

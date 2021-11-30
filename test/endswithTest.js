@@ -22,31 +22,23 @@ describe('#endsWith()', function() {
     expect(endsWith('qwerty', 'rty', 12)).to.equal(true);
     });
 
-    //TEST FAILS returns false
-    /*
+    //zzreturns false
     it('should account for negative indexes and return true', function() {
       expect(endsWith('qwerty', 't', -2)).to.equal(true);
     });
-    */
 
-    //TEST FAILS returns false
-    /*
+    //returns false
     it('should throw an error for a non-number position', function() {
     expect(endsWith('qwerty', 'q', 'test')).to.throw(TypeError);
     });
-    */
 
-    //TEST FAILS returns true
-    /*
+    //returns true
     it('should throw an error for a non-integer position', function() {
     expect(endsWith('qwerty', 'q', 1.25)).to.throw(TypeError);
     });
-    */
 
-    //TEST FAILS returns false
-    /*
+    //returns false
     it('should throw an error for a null position', function() {
       expect(endsWith('qwerty', 'ty', null)).to.throw(TypeError);
       });
-      */
   });

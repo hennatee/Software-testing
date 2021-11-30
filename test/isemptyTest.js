@@ -67,22 +67,18 @@ describe('#isEmpty()', function() {
       expect(isEmpty(Object.getPrototypeOf(obj1))).to.equal(true);
     });
 
-    //TEST FAILS returns true
-    /*
+    //returns true
     it('should return false for a non-empty prototype object', function() {
       expect(isEmpty(Object.getPrototypeOf(obj2))).to.equal(false);
     });
-    */
 
     const buf1 = Buffer.alloc(10);
     const buf2 = Buffer.from('abcdef');
 
-    //TEST FAILS returns false
-    /*
+    //returns false
     it('should return true for an empty buffer', function() {
       expect(isEmpty(buf1)).to.equal(true);
     });
-    */
 
     it('should return false for a non-empty buffer', function() {
       expect(isEmpty(buf2)).to.equal(false);
