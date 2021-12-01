@@ -1,5 +1,5 @@
 import ceil from '../COMP.SE.200-2021-2022-1/src/ceil.js';
-import { expect } from 'chai';
+import { expect, assert } from 'chai';
 
 
 describe('#ceil()', function() {
@@ -38,12 +38,20 @@ describe('#ceil()', function() {
 
     //returns 0
     it('should throw an error for a null parameter', function() {
-      expect(ceil(null)).to.throw();
+      assert.throws(function () { ceil(null) }, Error);
+    });
+
+    //returns 0
+    it('should throw an error for an undefined parameter', function() {
+      assert.throws(function () { ceil(undefined) }, Error);
     });
 
     //returns 0
     it('should return rounded up integer when given value is 0 and precision is negative number', function() {
       expect(ceil(0, -2)).to.equal(100);
     });
-    
+
+     it('should return rounded up integer when given value is positive integer and precision is negative number', function() {
+      expect(ceil(1, -1)).to.equal(10);
+    });
 });

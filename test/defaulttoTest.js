@@ -1,8 +1,6 @@
 import defaultTo from '../COMP.SE.200-2021-2022-1/src/defaultTo.js';
 import { expect } from 'chai';
 
-console.log(defaultTo(null, [1, 2, 3]));
-
 describe('#defaultTo()', function() {
 
     //returns NaN
